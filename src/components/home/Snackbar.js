@@ -2,7 +2,7 @@ import React from 'react';
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 
-import useStyles from './Posts../style';
+import useStyles from './Posts/style';
 
 const CustomizedSnackbar = ({ open, setOpen,message }) => {
   const classes = useStyles();

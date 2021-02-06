@@ -4,7 +4,7 @@ import './home.css'
 
 import { makeStyles } from '@material-ui/core/styles';
 import Form from './Form/Form'
-import Posts from './Posts../Posts'
+import Posts from './Posts/Posts'
 const Home = () => {
     
     return (
