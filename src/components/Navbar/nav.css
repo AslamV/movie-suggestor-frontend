@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.titlesss{
+    font-family: 'Prosto One', cursive;
+    color: red;
+}
+.nav{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: static;
+    z-index: 100;
+}
+nav .menu{
+    display: flex;
+}
+.main-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px;
+}
+.menu li a:active{
+    border-bottom: 2px solid red;
+}
+.profiless {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+.search {
+    width: 300px;
+    border-radius: 20px;
+    margin: 0px 20px;
+    height: 40px;
+    display: flex;
+    background-color: #58585821;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.search input {
+    width: 150px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
